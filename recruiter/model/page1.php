@@ -3,9 +3,9 @@ class Database
 {
     
    // private $dsn = "sqlsrv:Server=localhost;Database=test";    // Conect with SQLServer
-    private $dsn = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_e3c1b194c947709";   // Conect with MySQL
-    private $username = "b09b4e8c9a2b5e";
-    private $pass = "dadc91c0";
+    private $dsn = "mysql:host=us-cdbr-east-06.cleardb.net;dbname=heroku_e56909acb3436a0";   // Conect with MySQL
+    private $username = "ba859c13681be6";
+    private $pass = "f3f3bcdf";
     public $conn;
 
     public function __construct()

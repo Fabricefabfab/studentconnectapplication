@@ -1,9 +1,9 @@
 <?php 
 
 $server = "us-cdbr-east-06.cleardb.net";
-$user = "b09b4e8c9a2b5e";
-$pass = "dadc91c0";
-$database = "heroku_e3c1b194c947709";
+$user = "ba859c13681be6";
+$pass = "f3f3bcdf";
+$database = "heroku_e56909acb3436a0";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
