@@ -56,28 +56,9 @@
                 // $error = " Wrong credentials: User does not exist. Try again";
             }
 
-            //Student login 
-            $stud = $conn -> prepare("SELECT * FROM `Approvedstudent` WHERE `email`=? AND `password`=?");
-            $stud -> bind_param("ss",$Email,$Password);
-            $user = null;
-
-            $stud->execute();
-
-            $result = $stud->get_result();
-            //if true enter into the next page interface
-            if($result -> fetch_assoc()) {
-                header( 'Location: ./student/student/dashboard/account.php');
-            }
-            else {
-                echo '<script>alert("Wrong credentials, Please Try again")</script>';
-                // $error = " Wrong credentials: User does not exist. Try again";
-            }
-
-
         }
 }
 ?>
-
 
 
 <!DOCTYPE html>
