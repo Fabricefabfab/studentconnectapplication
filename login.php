@@ -149,6 +149,6 @@
         <script src="./script.js"></script>
 
     </body>
-    <!--End of the body instrustructions-->
+    <!--End of a body instrustructions-->
 
 </html>
